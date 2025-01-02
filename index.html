@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="converter">
+            <div>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+            <div>
+                <label for="fromCurrency">From:</label>
+                <select name="fromCurrency" id="fromCurrency">
+                    <option value="NGN">NGN (Nigerian Naira)</option>
+                    <option value="USD">USD (US Dollar)</option>
+                    <option value="GHS">GHS (Ghanian Sedes)</option>
+                    <option value="EUR">EUR (Euro)</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="INR">INR (Indian Rufee)</option>
+                </select>
+            </div>
+            <div>
+                <label for="toCurrency">To:</label>
+                <select name="toCurrency" id="toCurrency">
+                    <option value="NGN">NGN (Nigerian Naira)</option>
+                    <option value="USD">USD (US Dollar)</option>
+                    <option value="GHS">GHS (Ghanian Sedes)</option>
+                    <option value="EUR">EUR (Euro)</option>
+                    <option value="SAR">SAR (Saudi Riyal)</option>
+                    <option value="INR">INR (Indian Rufee)</option>
+                </select>
+            </div>
+            <button id="convertButton">Convert</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
